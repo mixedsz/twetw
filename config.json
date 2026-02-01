@@ -1,0 +1,18 @@
+{
+  "bot": {
+    "token": "MTQ0MDQ2ODg3NTExMTE3MDA5OQ.G_jUIG.Jt4sAWAdcGUu-5aAzB1STlycYVGiHeu6PeiUHI",
+    "guildId": "1436808600394666146"
+  },
+  "database": {
+    "mongoUri": "mongodb+srv://test:5wtTw4tOP4DlXSxb@cluster0.20vhxqi.mongodb.net/?appName=Cluster0"
+  },
+  "permissions": {
+    "ownerRoles": ["1436808600721952832"],
+    "adminRoles": ["1436808600394666151"]
+  },
+  "server": {
+    "ip": "23.26.135.32"
+  },
+  "debug": false
+}
+

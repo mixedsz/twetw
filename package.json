@@ -1,0 +1,14 @@
+{
+  "name": "elyxir-clone",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.69",
+    "discord.js": "^14.18.0",
+    "mongodb": "^6.21.0",
+    "mongoose": "^8.13.2"
+  }
+}
