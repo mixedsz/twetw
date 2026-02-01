@@ -15,12 +15,10 @@ mongoose.set('bufferTimeoutMS', 3000); // Reduce buffer timeout to 3 seconds
 
 // Connect to MongoDB with connection options
 mongoose.connect(MONGODB_URI, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-    serverSelectionTimeoutMS: 5000, // Reduce server selection timeout
-    socketTimeoutMS: 5000, // Reduce socket timeout
-    connectTimeoutMS: 5000, // Reduce connection timeout
-    maxPoolSize: 10 // Limit connection pool size
+    serverSelectionTimeoutMS: 10000,
+    socketTimeoutMS: 45000,
+    connectTimeoutMS: 10000,
+    maxPoolSize: 10
 })
 .then(() => {
     console.log('Connected to MongoDB');
