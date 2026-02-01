@@ -4,7 +4,7 @@
     "guildId": "1436808600394666146"
   },
   "database": {
-    "mongoUri": "mongodb://test:5wtTw4tOP4DlXSxb@ac-uahtajf-shard-00-00.20vhxqi.mongodb.net:27017,ac-uahtajf-shard-00-01.20vhxqi.mongodb.net:27017,ac-uahtajf-shard-00-02.20vhxqi.mongodb.net:27017/?ssl=true&authSource=admin&replicaSet=atlas-20vhxqi-shard-0&retryWrites=true&w=majority"
+    "mongoUri": "mongodb://test:5wtTw4tOP4DlXSxb@ac-uahtajf-shard-00-00.20vhxqi.mongodb.net:27017/?tls=true&authSource=admin&directConnection=true"
   },
   "permissions": {
     "ownerRoles": ["1436808600721952832"],
